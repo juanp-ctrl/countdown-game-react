@@ -8,5 +8,5 @@ In this excercise we made use of refs to allow us a better use and control of ti
 
 [Preview of the app]: #
 <p align="center">
-  <img src="https://github.com/juanp-ctrl/countdown-game-react/tree/main/public/preview_1.PNG?raw=true" alt="Preview of the app"/>
+  <img src="https://github.com/juanp-ctrl/countdown-game-react/blob/main/public/preview_1.png" alt="Preview of the app"/>
 </p>
