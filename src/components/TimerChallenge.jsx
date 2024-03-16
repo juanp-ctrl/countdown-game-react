@@ -17,6 +17,7 @@ export default function TimerChallenge({ title, targetTime }) {
 
   function handleRestart() {
     setRemainingTimer(targetTime * 1000);
+    modal.current.close();
   }
 
   function handleStart() {

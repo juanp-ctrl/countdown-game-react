@@ -16,6 +16,9 @@ const Modal = forwardRef(function Modal(
       open() {
         internalDialogRef.current.showModal();
       },
+      close() {
+        internalDialogRef.current.close();
+      }
     };
   });
 
@@ -29,9 +32,9 @@ const Modal = forwardRef(function Modal(
         You stopped the timer with{" "}
         <strong>{remainingTimeInSeconds} seconds left.</strong>
       </p>
-      <form action="dialog" onSubmit={handleRestart}>
-        <button>Close</button>
-      </form>
+      <div>
+        <button onClick={handleRestart}>Close</button>
+      </div>
     </dialog>,
     document.getElementById('modal')
   );
